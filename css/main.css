@@ -25,15 +25,13 @@ img {
   width: 100%;
 }
 
-
-.photo:nth-child(5) {
-  display: none;
-}
-
 .photo:nth-child(2) {
   display: none;
 }
 
+.photo:nth-child(5) {
+  display: none;
+}
 
 @media only screen and (min-width: 25em) {
 
@@ -84,12 +82,11 @@ img {
     width: 100%;
   }
 
-
-    .photo:nth-child(4) {
-      width: 33.3333%;
-    }
-
   .photo:nth-child(3) {
+    width: 33.3333%;
+  }
+
+  .photo:nth-child(4) {
     width: 33.3333%;
   }
 
@@ -110,9 +107,6 @@ img {
     display: flex;
     flex-wrap: wrap;
   }
-  .photo:nth-child(4) {
-    width: 33.3333%;
-  }
 
   .photo {
     display: block;
@@ -120,6 +114,10 @@ img {
   }
 
   .photo:nth-child(3) {
+    width: 33.3333%;
+  }
+
+  .photo:nth-child(4) {
     width: 33.3333%;
   }
 
